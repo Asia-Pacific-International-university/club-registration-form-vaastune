@@ -26,12 +26,15 @@
 
     
     <main>
+        <div class="form-box">
         <form action="process.php" method="post">
-            <label for="firstname">First Name:</label><br>
-            <input type="text" id="firstname" name="firstname" required><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <!-- <label for="firstname" name="fname">First Name:</label><br>
+            <input type="text" id="firstname" name="firstname" required>br>
             
-            <label for="lastname">Last Name:</label><br>
-            <input type="text" id="lastname" name="lastname" required><br>
+            <label for="lastname" name="lname">Last Name:</label><br>
+            <input type="text" id="lastname" name="lastname" required><br> -->
 
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br>
@@ -51,8 +54,8 @@
                     <option value="coding">Coding Club</option>
                 </select><br><br>
             </div>
-
-            <button type="submit" name="submit">Register Now</button>
+ 
+            <input type="submit" name="submit"></input>
         </form>
 </main>
     <div class = "footer">
@@ -60,6 +63,7 @@
         <p>&copy; 2024 Student Club Registration System</p>
     </footer>
     </div>
+</div>
 
 </body>
 </html>
