@@ -1,4 +1,6 @@
 <?php
+
+$_POST
 // Club Registration Form Processing
 // TODO: Add your PHP processing code here starting in Step 3
 
